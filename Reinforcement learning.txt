@@ -30,4 +30,6 @@ State : model needs to know about the environment
 Test the following information : Danger, direction, food (boolean value)
 
 
+Model: 
+
 
