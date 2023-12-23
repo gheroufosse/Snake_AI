@@ -1,0 +1,33 @@
+Reinforcement learning:
+Teaching a software agent how to behave in an envrionment by telling it how good it is.
+
+Q-learning:
+Use a neural network to train the model
+
+Steps:
+
+Game (Pygame)
+-play_step(action) -> reword, game_over, score
+Agent
+Training, state, action, reward,
+
+Model(PyTorch)
+
+
+Reward:
+Food + 10
+GameOver - 10
+Else 0
+
+Action
+[1, 0, 0] -> straight
+[0, 1, 0] -> right turn
+[0, 0, 1] -> left turn
+
+
+State : model needs to know about the environment
+
+Test the following information : Danger, direction, food (boolean value)
+
+
+
